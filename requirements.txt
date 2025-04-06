@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+googlemaps
+polyline
+faiss-cpu
+sentence-transformers
+llama-index
+pydantic
