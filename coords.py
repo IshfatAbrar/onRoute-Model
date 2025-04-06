@@ -8,7 +8,7 @@ import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from llama_index.core import Settings
-from llama_index.llms.ollama import Ollama
+
 
 # Use an environment variable for the API key
 gmaps = googlemaps.Client(key="AIzaSyBQPN2It_7DUDQ7KexhW_C2YdDGXJPBrzk") 
