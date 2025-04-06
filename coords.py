@@ -11,7 +11,7 @@ from llama_index.core import Settings
 
 
 # Use an environment variable for the API key
-gmaps = googlemaps.Client(key="AIzaSyBQPN2It_7DUDQ7KexhW_C2YdDGXJPBrzk") 
+gmaps = googlemaps.Client(key=os.getenv("GOOGLE_MAPS_API_KEY")) 
 
 def get_travel_suggestions(source: str, destination: str, start_time_str: str) -> str:
     """
